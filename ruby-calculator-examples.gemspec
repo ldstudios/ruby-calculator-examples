@@ -36,4 +36,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "cucumber", "~> 2.4"
 
   spec.add_dependency "money", "~> 6.7"
+  spec.add_dependency "activemodel", "~> 5.0"
 end
