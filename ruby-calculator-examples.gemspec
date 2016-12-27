@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["daniel.rice@ldstudios.co"]
 
   spec.summary       = "This gem shows how to build a calculator with Ruby and Cucumber"
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.description   = "This gem shows how to build a calculator with Ruby and Cucumber"
+  spec.homepage      = "https://github.com/ldstudios/ruby-calculator-examples"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -33,7 +33,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.13"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency "cucumber"
+  spec.add_development_dependency "cucumber", "~> 2.4"
 
-  spec.add_dependency "money"
+  spec.add_dependency "money", "~> 6.7"
 end
